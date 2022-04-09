@@ -5,11 +5,11 @@ import styles from "./layout.module.css";
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <>
       <Header />
       <main className={styles.main}>{children}</main>
       <Footer />
-    </div>
+    </>
   );
 };
 
